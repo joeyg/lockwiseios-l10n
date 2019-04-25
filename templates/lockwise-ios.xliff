@@ -1,0 +1,578 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="CredentialProvider/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>CredentialProvider</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="CredentialProvider/en.lproj/Localizable.strings" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="autofill.enabling">
+        <source>Updating AutoFill...</source>
+        <note>Text displayed while autofill credentials are being populated, caps-case AutoFill is intentional to match Apple's marketing word</note>
+      </trans-unit>
+      <trans-unit id="autofill.finished_enabling">
+        <source>Finished updating autofill</source>
+        <note>Accesibility notification when autofill is done being enabled</note>
+      </trans-unit>
+      <trans-unit id="autofill.signInRequired">
+        <source>Sign in Required</source>
+        <note>Title for alert dialog explaining that a user must be signed in to use autofill</note>
+      </trans-unit>
+      <trans-unit id="autofill.signInRequiredBody">
+        <source>You must be signed in to %1$@ before AutoFill will allow you to add passwords from %2$@. Once you have signed in, your entries will start appearing in AutoFill.</source>
+        <note>Body for alert dialog explaining that a user must be signed in to use autofill</note>
+      </trans-unit>
+      <trans-unit id="cancel">
+        <source>Cancel</source>
+        <note>Cancel button title</note>
+      </trans-unit>
+      <trans-unit id="firefoxLockbox">
+        <source>Firefox Lockbox</source>
+        <note>Product Name</note>
+      </trans-unit>
+      <trans-unit id="ok">
+        <source>OK</source>
+        <note>Ok button title</note>
+      </trans-unit>
+      <trans-unit id="search.placeholder">
+        <source>Search your entries</source>
+        <note>Placeholder text for search field</note>
+      </trans-unit>
+      <trans-unit id="signIn">
+        <source>Sign In</source>
+        <note>Sign in button text</note>
+      </trans-unit>
+      <trans-unit id="unlock_placeholder">
+        <source>This will unlock the app.</source>
+        <note>Placeholder text when the user's email is unavailable while unlocking Lockbox, shown in Touch ID and passcode prompts</note>
+      </trans-unit>
+      <trans-unit id="username_placeholder">
+        <source>(no username)</source>
+        <note>Placeholder text when there is no username</note>
+      </trans-unit>
+      <trans-unit id="your_lockbox">
+        <source>Firefox Lockbox</source>
+        <note>Title appearing above the list of entries on the main screen of the app</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="CredentialProvider/Storyboard/Base.lproj/CredentialWelcome.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="ehm-2v-Rbb.accessibilityLabel">
+        <source>Firefox Lockbox</source>
+        <note>Class = "UIImageView"; accessibilityLabel = "Firefox Lockbox"; ObjectID = "ehm-2v-Rbb";</note>
+      </trans-unit>
+      <trans-unit id="hwO-wS-oS4.text">
+        <source>Take your passwords everywhere</source>
+        <note>Class = "UILabel"; text = "Take your passwords everywhere"; ObjectID = "hwO-wS-oS4";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="lockbox-ios/Common/Resources/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Lockbox</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSFaceIDUsageDescription">
+        <source>Firefox Lockbox will use Face ID to sign you in to the app.</source>
+        <note>Privacy - Face ID Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="lockbox-ios/Common/Resources/Strings/en.lproj/Localizable.strings" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="a_to_z">
+        <source>A-Z</source>
+        <note>Label for the button allowing users to sort an entry list alphabetically</note>
+      </trans-unit>
+      <trans-unit id="account">
+        <source>Account</source>
+        <note>Title for settings page letting users manage their accounts</note>
+      </trans-unit>
+      <trans-unit id="alphabetically">
+        <source>Alphabetically</source>
+        <note>Label for the option sheet action allowing users to sort an entry list alphabetically</note>
+      </trans-unit>
+      <trans-unit id="app_update_explanation">
+        <source>Due to a recent app update, we will need you to sign in again. Apologies for the inconvenience.</source>
+        <note>Message in dialog box when users need to reauthenticate explaining application update</note>
+      </trans-unit>
+      <trans-unit id="autofill.enabling">
+        <source>Updating AutoFill...</source>
+        <note>Text displayed while autofill credentials are being populated, caps-case AutoFill is intentional to match Apple's marketing word</note>
+      </trans-unit>
+      <trans-unit id="autofill.finished_enabling">
+        <source>Finished updating autofill</source>
+        <note>Accesibility notification when autofill is done being enabled</note>
+      </trans-unit>
+      <trans-unit id="autofill.signInRequired">
+        <source>Sign in Required</source>
+        <note>Title for alert dialog explaining that a user must be signed in to use autofill</note>
+      </trans-unit>
+      <trans-unit id="autofill.signInRequiredBody">
+        <source>You must be signed in to %1$@ before AutoFill will allow you to add passwords from %2$@. Once you have signed in, your entries will start appearing in AutoFill.</source>
+        <note>Body for alert dialog explaining that a user must be signed in to use autofill</note>
+      </trans-unit>
+      <trans-unit id="back">
+        <source>Back</source>
+        <note>Back button title</note>
+      </trans-unit>
+      <trans-unit id="cancel">
+        <source>Cancel</source>
+        <note>Cancel button title</note>
+      </trans-unit>
+      <trans-unit id="close">
+        <source>Close</source>
+        <note>Close button title</note>
+      </trans-unit>
+      <trans-unit id="confirm_dialog_message">
+        <source>This will delete your Firefox Account information and all saved entries from Firefox Lockbox.</source>
+        <note>Confirm dialog message</note>
+      </trans-unit>
+      <trans-unit id="confirm_dialog_title">
+        <source>Disconnect Firefox Lockbox?</source>
+        <note>Confirm dialog title</note>
+      </trans-unit>
+      <trans-unit id="continue">
+        <source>Continue</source>
+        <note>Button title when agreeing to proceed to access Lockbox.</note>
+      </trans-unit>
+      <trans-unit id="done">
+        <source>Done</source>
+        <note>Text on button to close settings</note>
+      </trans-unit>
+      <trans-unit id="fieldNameCopied">
+        <source>%@ copied</source>
+        <note>Alert text when a field has been copied, with an interpolated field name value</note>
+      </trans-unit>
+      <trans-unit id="firefoxLockbox">
+        <source>Firefox Lockbox</source>
+        <note>Product Name</note>
+      </trans-unit>
+      <trans-unit id="install_browser_prompt">
+        <source>%@ disabled, install this browser to make it available</source>
+        <note>Accessibility instructions for disabled web browser options</note>
+      </trans-unit>
+      <trans-unit id="no_username">
+        <source>(no username)</source>
+        <note>placeholder text when there is no username</note>
+      </trans-unit>
+      <trans-unit id="not_using_passcode">
+        <source>You're not using a passcode.</source>
+        <note>Title for dialog box with passcode setting information</note>
+      </trans-unit>
+      <trans-unit id="notes">
+        <source>Notes</source>
+        <note>Section title for the notes field on the item detail screen</note>
+      </trans-unit>
+      <trans-unit id="ok">
+        <source>OK</source>
+        <note>Ok button title</note>
+      </trans-unit>
+      <trans-unit id="onboarding.encryption">
+        <source>256-bit encryption</source>
+        <note>Name of link to algorithm used by Lockbox for encryption</note>
+      </trans-unit>
+      <trans-unit id="passcode_detail_information">
+        <source>In order to lock Firefox Lockbox, a passcode must be set up on your device. Without a passcode, anyone who has your iPhone can access the information saved here.</source>
+        <note>Message for dialog box with passcode reminder</note>
+      </trans-unit>
+      <trans-unit id="passcode_info">
+        <source>You should use a passcode to lock your iPhone. Without a passcode, anyone who has your iPhone can access the information saved here.</source>
+        <note>Informative text about the</note>
+      </trans-unit>
+      <trans-unit id="password">
+        <source>Password</source>
+        <note>Section title text for the password on the item detail screen</note>
+      </trans-unit>
+      <trans-unit id="password_accessibility_instructions">
+        <source>Password: double tap to copy %@</source>
+        <note>Accessibility label and instructions for password section of entry details</note>
+      </trans-unit>
+      <trans-unit id="reauth_required">
+        <source>Reauthentication Required</source>
+        <note>Title of dialog box displayed when users need to reauthenticate</note>
+      </trans-unit>
+      <trans-unit id="recent">
+        <source>Recent</source>
+        <note>Button title when entries list is sorted by most recently used entry</note>
+      </trans-unit>
+      <trans-unit id="recently_used">
+        <source>Recently Used</source>
+        <note>Label for the option sheet action allowing users to sort an entry list by the most recently used entries</note>
+      </trans-unit>
+      <trans-unit id="search.placeholder">
+        <source>Search your entries</source>
+        <note>Placeholder text for search field</note>
+      </trans-unit>
+      <trans-unit id="set_passcode">
+        <source>Set Passcode</source>
+        <note>Label for button allowing users to go to passcode settings</note>
+      </trans-unit>
+      <trans-unit id="settings.account">
+        <source>Account</source>
+        <note>Account option in settings</note>
+      </trans-unit>
+      <trans-unit id="settings.appVersion">
+        <source>App Version</source>
+        <note>App Version setting label</note>
+      </trans-unit>
+      <trans-unit id="settings.autoFillSettings">
+        <source>AutoFill Passwords Settings</source>
+        <note>Label to link to iOS AutoFill Settings</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock">
+        <source>Auto Lock</source>
+        <note>Auto Lock option in settings</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.fifteenMinutes">
+        <source>15 minutes</source>
+        <note>15 minutes auto lock setting</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.fiveMinutes">
+        <source>5 minutes</source>
+        <note>5 minutes auto lock setting</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.header">
+        <source>Sign out of Firefox Lockbox after</source>
+        <note>Header displayed above auto lock settings</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.never">
+        <source>Never</source>
+        <note>Never</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.oneHour">
+        <source>1 hour</source>
+        <note>1 hour auto lock setting</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.oneMinute">
+        <source>1 minute</source>
+        <note>1 minute auto lock setting</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.thirtyMinutes">
+        <source>30 minutes</source>
+        <note>30 minutes auto lock setting</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.twelveHour">
+        <source>12 hours</source>
+        <note>12 hours auto lock setting</note>
+      </trans-unit>
+      <trans-unit id="settings.autoLock.twentyFourHour">
+        <source>24 hours</source>
+        <note>24 hours auto lock setting</note>
+      </trans-unit>
+      <trans-unit id="settings.browser">
+        <source>Open Websites in</source>
+        <note>Preferred Browser option in settings</note>
+      </trans-unit>
+      <trans-unit id="settings.browser.chrome">
+        <source>Google Chrome</source>
+        <note>Chrome Browser</note>
+      </trans-unit>
+      <trans-unit id="settings.browser.firefox">
+        <source>Firefox</source>
+        <note>Firefox Browser</note>
+      </trans-unit>
+      <trans-unit id="settings.browser.focus">
+        <source>Firefox Focus</source>
+        <note>Focus Browser</note>
+      </trans-unit>
+      <trans-unit id="settings.browser.klar">
+        <source>Firefox Klar</source>
+        <note>Klar Browser</note>
+      </trans-unit>
+      <trans-unit id="settings.browser.safari">
+        <source>Safari</source>
+        <note>Safari Browser</note>
+      </trans-unit>
+      <trans-unit id="settings.configuration.header">
+        <source>CONFIGURATION</source>
+        <note>Configuration label in settings</note>
+      </trans-unit>
+      <trans-unit id="settings.faq">
+        <source>FAQ</source>
+        <note>FAQ option in settings</note>
+      </trans-unit>
+      <trans-unit id="settings.getSupport">
+        <source>Ask a Question</source>
+        <note>Support link to Discourse discussion forum</note>
+      </trans-unit>
+      <trans-unit id="settings.learnMore">
+        <source>Learn More</source>
+        <note>Label for link to learn more</note>
+      </trans-unit>
+      <trans-unit id="settings.provideFeedback">
+        <source>Send Feedback</source>
+        <note>Send feedback option in settings</note>
+      </trans-unit>
+      <trans-unit id="settings.support.header">
+        <source>SUPPORT</source>
+        <note>Support section label in settings</note>
+      </trans-unit>
+      <trans-unit id="settings.title">
+        <source>Settings</source>
+        <note>Title on settings screen</note>
+      </trans-unit>
+      <trans-unit id="settings.usageData">
+        <source>Send Usage Data</source>
+        <note>Setting to send usage data</note>
+      </trans-unit>
+      <trans-unit id="settings.usageData.subtitle">
+        <source>Mozilla strives to only collect what we need to provide and improve Firefox Lockbox for everyone. </source>
+        <note>Setting for send usage data subtitle</note>
+      </trans-unit>
+      <trans-unit id="settings_button">
+        <source>Settings</source>
+        <note>Accessibility identifier for the settings button</note>
+      </trans-unit>
+      <trans-unit id="signIn">
+        <source>Sign In</source>
+        <note>Sign in button text</note>
+      </trans-unit>
+      <trans-unit id="skip">
+        <source>Skip</source>
+        <note>Label for button allowing users to skip setting passcode or biometrics on device</note>
+      </trans-unit>
+      <trans-unit id="sort_entries">
+        <source>Sort Entries</source>
+        <note>Title for the option sheet allowing users to sort entries</note>
+      </trans-unit>
+      <trans-unit id="sorting_options">
+        <source>Select options for sorting your list of entries (currently %@)</source>
+        <note>Accessibility identifier for the sorting options button</note>
+      </trans-unit>
+      <trans-unit id="syncing_entries">
+        <source>Syncing your entries</source>
+        <note>Accessibility callout for finishing syncing your entries
+   Label and accessibility callout for syncing your entries spinner and HUD</note>
+      </trans-unit>
+      <trans-unit id="unlink">
+        <source>Disconnect</source>
+        <note>Unlink aka Disconnect button title</note>
+      </trans-unit>
+      <trans-unit id="unlock_placeholder">
+        <source>This will unlock the app.</source>
+        <note>Placeholder text when the user's email is unavailable while unlocking Lockbox, shown in Touch ID and passcode prompts</note>
+      </trans-unit>
+      <trans-unit id="unlock_with_faceid">
+        <source>Unlock with Face ID</source>
+        <note>Label for the button to unlock the device using Face ID</note>
+      </trans-unit>
+      <trans-unit id="unlock_with_pin">
+        <source>Unlock with Passcode</source>
+        <note>Label for the button to unlock the device using a device passcode</note>
+      </trans-unit>
+      <trans-unit id="unlock_with_touchid">
+        <source>Unlock with Touch ID</source>
+        <note>Label for the button to unlock the device using Touch ID</note>
+      </trans-unit>
+      <trans-unit id="unnamed_entry">
+        <source>unnamed entry</source>
+        <note>Placeholder text for when there is no entry name</note>
+      </trans-unit>
+      <trans-unit id="username">
+        <source>Username</source>
+        <note>Section title text for username on the item detail screen</note>
+      </trans-unit>
+      <trans-unit id="username_accessibility_instructions">
+        <source>Username: double tap to copy %@</source>
+        <note>Accessibility label and instructions for username section of entry details</note>
+      </trans-unit>
+      <trans-unit id="username_placeholder">
+        <source>(no username)</source>
+        <note>Placeholder text when there is no username</note>
+      </trans-unit>
+      <trans-unit id="web_address">
+        <source>Web Address</source>
+        <note>Section title text for the web address on the item detail screen</note>
+      </trans-unit>
+      <trans-unit id="website_accessibility_instructions">
+        <source>Web address: double tap to open in browser %@</source>
+        <note>Accessibility label and instructions for web address section of entry details</note>
+      </trans-unit>
+      <trans-unit id="your_lockbox">
+        <source>Firefox Lockbox</source>
+        <note>Title appearing above the list of entries on the main screen of the app</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="lockbox-ios/Storyboard/Base.lproj/AccountSetting.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="6A6-i9-hvw.text">
+        <source>To make changes to your account, log in to your Firefox Account from any browser.</source>
+        <note>Class = "UILabel"; text = "To make changes to your account, log in to your Firefox Account from any browser."; ObjectID = "6A6-i9-hvw";</note>
+      </trans-unit>
+      <trans-unit id="dKb-ji-8VE.text">
+        <source>This removes synced entries from Firefox Lockbox, but will not delete your entries from Firefox.</source>
+        <note>Class = "UILabel"; text = "This removes synced entries from Firefox Lockbox, but will not delete your entries from Firefox."; ObjectID = "dKb-ji-8VE";</note>
+      </trans-unit>
+      <trans-unit id="f32-KR-4Nm.text">
+        <source>Firefox Account</source>
+        <note>Class = "UILabel"; text = "Firefox Account"; ObjectID = "f32-KR-4Nm";</note>
+      </trans-unit>
+      <trans-unit id="htf-cl-VXU.normalTitle">
+        <source>Disconnect Firefox Lockbox</source>
+        <note>Class = "UIButton"; normalTitle = "Disconnect Firefox Lockbox"; ObjectID = "htf-cl-VXU";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="lockbox-ios/Storyboard/Base.lproj/ItemDetail.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="HfY-Wo-gMH.accessibilityLabel">
+        <source>Copy value</source>
+        <note>Class = "UIButton"; accessibilityLabel = "Copy value"; ObjectID = "HfY-Wo-gMH";</note>
+      </trans-unit>
+      <trans-unit id="Mhp-Pp-rfw.accessibilityLabel">
+        <source>Reveal password in plaintext</source>
+        <note>Class = "UIButton"; accessibilityLabel = "Reveal password in plaintext"; ObjectID = "Mhp-Pp-rfw";</note>
+      </trans-unit>
+      <trans-unit id="Tbk-ki-qGK.accessibilityLabel">
+        <source>Reveal password in plaintext</source>
+        <note>Class = "UIButton"; accessibilityLabel = "Reveal password in plaintext"; ObjectID = "Tbk-ki-qGK";</note>
+      </trans-unit>
+      <trans-unit id="YaD-WB-pbb.normalTitle">
+        <source>Learn how to edit this entry</source>
+        <note>Class = "UIButton"; normalTitle = "Learn how to edit this entry"; ObjectID = "YaD-WB-pbb";</note>
+      </trans-unit>
+      <trans-unit id="t0H-71-xTp.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "t0H-71-xTp";</note>
+      </trans-unit>
+      <trans-unit id="tuK-Xc-guT.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "tuK-Xc-guT";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="lockbox-ios/Storyboard/Base.lproj/SettingList.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="KPq-Rv-WTJ.normalTitle">
+        <source>Lock Now</source>
+        <note>Class = "UIButton"; normalTitle = "Lock Now"; ObjectID = "KPq-Rv-WTJ";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="lockbox-ios/Storyboard/Base.lproj/Welcome.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="8rH-vt-4bG.normalTitle">
+        <source>Unlock Firefox Lockbox</source>
+        <note>Class = "UIButton"; normalTitle = "Unlock Firefox Lockbox"; ObjectID = "8rH-vt-4bG";</note>
+      </trans-unit>
+      <trans-unit id="JTP-OD-6TF.normalTitle">
+        <source>Learn more</source>
+        <note>Class = "UIButton"; normalTitle = "Learn more"; ObjectID = "JTP-OD-6TF";</note>
+      </trans-unit>
+      <trans-unit id="cuz-yd-F4J.normalTitle">
+        <source>Get Started</source>
+        <note>Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "cuz-yd-F4J";</note>
+      </trans-unit>
+      <trans-unit id="ehm-2v-Rbb.accessibilityLabel">
+        <source>Firefox Lockbox</source>
+        <note>Class = "UIImageView"; accessibilityLabel = "Firefox Lockbox"; ObjectID = "ehm-2v-Rbb";</note>
+      </trans-unit>
+      <trans-unit id="hwO-wS-oS4.text">
+        <source>Take your passwords everywhere</source>
+        <note>Class = "UILabel"; text = "Take your passwords everywhere"; ObjectID = "hwO-wS-oS4";</note>
+      </trans-unit>
+      <trans-unit id="xyY-bk-Xw8.text">
+        <source>To use Firefox Lockbox, you’ll need a Firefox Account with saved logins.</source>
+        <note>Class = "UILabel"; text = "To use Firefox Lockbox, you’ll need a Firefox Account with saved logins."; ObjectID = "xyY-bk-Xw8";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Storyboard/Base.lproj/ItemList.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="3A5-nI-aV6.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "3A5-nI-aV6";</note>
+      </trans-unit>
+      <trans-unit id="5gN-a0-N6V.normalTitle">
+        <source>Learn more</source>
+        <note>Class = "UIButton"; normalTitle = "Learn more"; ObjectID = "5gN-a0-N6V";</note>
+      </trans-unit>
+      <trans-unit id="JpV-eG-grp.text">
+        <source>To see more entries here, you'll need to save them to Firefox for desktop.</source>
+        <note>Class = "UILabel"; text = "To see more entries here, you'll need to save them to Firefox for desktop."; ObjectID = "JpV-eG-grp";</note>
+      </trans-unit>
+      <trans-unit id="RpZ-Z7-u0I.text">
+        <source>Select a password to fill</source>
+        <note>Class = "UILabel"; text = "Select a password to fill"; ObjectID = "RpZ-Z7-u0I";</note>
+      </trans-unit>
+      <trans-unit id="Smh-ku-Ub5.text">
+        <source>Firefox Lockbox lets you access passwords you've already saved to Firefox. To view your entries here, you'll need to sign in and sync with Firefox for desktop.</source>
+        <note>Class = "UILabel"; text = "Firefox Lockbox lets you access passwords you've already saved to Firefox. To view your entries here, you'll need to sign in and sync with Firefox for desktop."; ObjectID = "Smh-ku-Ub5";</note>
+      </trans-unit>
+      <trans-unit id="aQB-Vr-ObR.normalTitle">
+        <source>Learn more</source>
+        <note>Class = "UIButton"; normalTitle = "Learn more"; ObjectID = "aQB-Vr-ObR";</note>
+      </trans-unit>
+      <trans-unit id="gQr-4J-xpv.text">
+        <source>No entries found.</source>
+        <note>Class = "UILabel"; text = "No entries found."; ObjectID = "gQr-4J-xpv";</note>
+      </trans-unit>
+      <trans-unit id="n2T-XM-ua9.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "n2T-XM-ua9";</note>
+      </trans-unit>
+      <trans-unit id="qZc-w1-SRT.text">
+        <source>No matching entries.</source>
+        <note>Class = "UILabel"; text = "No matching entries."; ObjectID = "qZc-w1-SRT";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Storyboard/Base.lproj/SpinnerAlert.xib" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="1Mj-QY-mDP.text">
+        <source>Syncing your entries...</source>
+        <note>Class = "UILabel"; text = "Syncing your entries..."; ObjectID = "1Mj-QY-mDP";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+
