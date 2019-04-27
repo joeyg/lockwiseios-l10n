@@ -447,6 +447,29 @@
       </trans-unit>
     </body>
   </file>
+  <file original="lockbox-ios/Storyboard/Base.lproj/AutofillOnboarding.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="GdN-75-tz4.normalTitle">
+        <source>Not Now</source>
+        <note>Class = "UIButton"; normalTitle = "Not Now"; ObjectID = "GdN-75-tz4";</note>
+      </trans-unit>
+      <trans-unit id="Krc-YI-yKW.text">
+        <source>AutoFill your logins right from your browser or app.</source>
+        <note>Class = "UILabel"; text = "AutoFill your logins right from your browser or app."; ObjectID = "Krc-YI-yKW";</note>
+      </trans-unit>
+      <trans-unit id="xVH-GK-wIb.text">
+        <source>No longer are the days of switching between apps in order to copy and paste your logins.</source>
+        <note>Class = "UILabel"; text = "No longer are the days of switching between apps in order to copy and paste your logins."; ObjectID = "xVH-GK-wIb";</note>
+      </trans-unit>
+      <trans-unit id="yEI-pU-vMZ.normalTitle">
+        <source>Set Up AutoFill</source>
+        <note>Class = "UIButton"; normalTitle = "Set Up AutoFill"; ObjectID = "yEI-pU-vMZ";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="lockbox-ios/Storyboard/Base.lproj/ItemDetail.storyboard" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
@@ -478,6 +501,33 @@
       </trans-unit>
     </body>
   </file>
+  <file original="lockbox-ios/Storyboard/Base.lproj/OnboardingConfirmation.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="1X7-W0-IdI.text">
+        <source>Welcome to Firefox Lockbox</source>
+        <note>Class = "UILabel"; text = "Welcome to Firefox Lockbox"; ObjectID = "1X7-W0-IdI";</note>
+      </trans-unit>
+      <trans-unit id="GdN-75-tz4.normalTitle">
+        <source>Finish</source>
+        <note>Class = "UIButton"; normalTitle = "Finish"; ObjectID = "GdN-75-tz4";</note>
+      </trans-unit>
+      <trans-unit id="afK-Kw-Hqs.text">
+        <source>Access logins saved to Firefox for desktop from your iPhone</source>
+        <note>Class = "UILabel"; text = "Access logins saved to Firefox for desktop from your iPhone"; ObjectID = "afK-Kw-Hqs";</note>
+      </trans-unit>
+      <trans-unit id="o0t-1T-rrA.text">
+        <source>Sync between devices with secure 256-bit encryption</source>
+        <note>Class = "UITextView"; text = "Sync between devices with secure 256-bit encryption"; ObjectID = "o0t-1T-rrA";</note>
+      </trans-unit>
+      <trans-unit id="sKa-b5-lgD.text">
+        <source>Unlock the app with ease using Touch ID or Face ID</source>
+        <note>Class = "UILabel"; text = "Unlock the app with ease using Touch ID or Face ID"; ObjectID = "sKa-b5-lgD";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="lockbox-ios/Storyboard/Base.lproj/SettingList.storyboard" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
@@ -486,6 +536,41 @@
       <trans-unit id="KPq-Rv-WTJ.normalTitle">
         <source>Lock Now</source>
         <note>Class = "UIButton"; normalTitle = "Lock Now"; ObjectID = "KPq-Rv-WTJ";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="lockbox-ios/Storyboard/Base.lproj/SetupAutofill.storyboard" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="KnK-nY-NyH.normalTitle">
+        <source>Got it</source>
+        <note>Class = "UIButton"; normalTitle = "Got it"; ObjectID = "KnK-nY-NyH";</note>
+      </trans-unit>
+      <trans-unit id="YaL-kM-bTV.text">
+        <source>Tap into AutoFill Passwords</source>
+        <note>Class = "UILabel"; text = "Tap into AutoFill Passwords"; ObjectID = "YaL-kM-bTV";</note>
+      </trans-unit>
+      <trans-unit id="Ys5-RP-RQg.text">
+        <source>Turn on AutoFill Passwords</source>
+        <note>Class = "UILabel"; text = "Turn on AutoFill Passwords"; ObjectID = "Ys5-RP-RQg";</note>
+      </trans-unit>
+      <trans-unit id="daO-QU-3p5.text">
+        <source>Tap into Passwords &amp; Accounts</source>
+        <note>Class = "UILabel"; text = "Tap into Passwords &amp; Accounts"; ObjectID = "daO-QU-3p5";</note>
+      </trans-unit>
+      <trans-unit id="dbo-05-zWe.text">
+        <source>How to Set up AutoFill</source>
+        <note>Class = "UILabel"; text = "How to Set up AutoFill"; ObjectID = "dbo-05-zWe";</note>
+      </trans-unit>
+      <trans-unit id="r0I-o4-2Ym.text">
+        <source>Select Lockbox</source>
+        <note>Class = "UILabel"; text = "Select Lockbox"; ObjectID = "r0I-o4-2Ym";</note>
+      </trans-unit>
+      <trans-unit id="xig-s8-dim.text">
+        <source>Open the Settings app</source>
+        <note>Class = "UILabel"; text = "Open the Settings app"; ObjectID = "xig-s8-dim";</note>
       </trans-unit>
     </body>
   </file>
