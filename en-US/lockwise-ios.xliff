@@ -64,10 +64,6 @@
         <source>(no username)</source>
         <note>Placeholder text when there is no username</note>
       </trans-unit>
-      <trans-unit id="your_lockbox">
-        <source>Firefox Lockbox</source>
-        <note>Title appearing above the list of entries on the main screen of the app</note>
-      </trans-unit>
     </body>
   </file>
   <file original="CredentialProvider/Storyboard/Base.lproj/CredentialWelcome.storyboard" datatype="plaintext" source-language="en">
@@ -154,11 +150,11 @@
         <note>Close button title</note>
       </trans-unit>
       <trans-unit id="confirm_dialog_message">
-        <source>This will delete your Firefox Account information and all saved entries from Firefox Lockbox.</source>
+        <source>This will delete your Firefox Account information and all saved entries from %@.</source>
         <note>Confirm dialog message</note>
       </trans-unit>
       <trans-unit id="confirm_dialog_title">
-        <source>Disconnect Firefox Lockbox?</source>
+        <source>Disconnect %@?</source>
         <note>Confirm dialog title</note>
       </trans-unit>
       <trans-unit id="continue">
@@ -168,6 +164,10 @@
       <trans-unit id="done">
         <source>Done</source>
         <note>Text on button to close settings</note>
+      </trans-unit>
+      <trans-unit id="done_syncing_entries">
+        <source>Done syncing your entries</source>
+        <note>Accessibility callout for finishing syncing your entries</note>
       </trans-unit>
       <trans-unit id="fieldNameCopied">
         <source>%@ copied</source>
@@ -202,7 +202,7 @@
         <note>Name of link to algorithm used by Lockbox for encryption</note>
       </trans-unit>
       <trans-unit id="passcode_detail_information">
-        <source>In order to lock Firefox Lockbox, a passcode must be set up on your device. Without a passcode, anyone who has your iPhone can access the information saved here.</source>
+        <source>In order to lock %@, a passcode must be set up on your device. Without a passcode, anyone who has your iPhone can access the information saved here.</source>
         <note>Message for dialog box with passcode reminder</note>
       </trans-unit>
       <trans-unit id="passcode_info">
@@ -262,7 +262,7 @@
         <note>5 minutes auto lock setting</note>
       </trans-unit>
       <trans-unit id="settings.autoLock.header">
-        <source>Sign out of Firefox Lockbox after</source>
+        <source>Sign out of %@ after</source>
         <note>Header displayed above auto lock settings</note>
       </trans-unit>
       <trans-unit id="settings.autoLock.never">
@@ -346,7 +346,7 @@
         <note>Setting to send usage data</note>
       </trans-unit>
       <trans-unit id="settings.usageData.subtitle">
-        <source>Mozilla strives to only collect what we need to provide and improve Firefox Lockbox for everyone. </source>
+        <source>Mozilla strives to only collect what we need to provide and improve %@ for everyone. </source>
         <note>Setting for send usage data subtitle</note>
       </trans-unit>
       <trans-unit id="settings_button">
@@ -371,8 +371,7 @@
       </trans-unit>
       <trans-unit id="syncing_entries">
         <source>Syncing your entries</source>
-        <note>Accessibility callout for finishing syncing your entries
-   Label and accessibility callout for syncing your entries spinner and HUD</note>
+        <note>Label and accessibility callout for syncing your entries spinner and HUD</note>
       </trans-unit>
       <trans-unit id="unlink">
         <source>Disconnect</source>
@@ -420,7 +419,7 @@
       </trans-unit>
       <trans-unit id="your_lockbox">
         <source>Firefox Lockbox</source>
-        <note>Title appearing above the list of entries on the main screen of the app</note>
+        <note>item list title</note>
       </trans-unit>
     </body>
   </file>
