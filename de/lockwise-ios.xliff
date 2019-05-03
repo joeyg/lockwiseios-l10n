@@ -11,6 +11,7 @@
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
         <note>Bundle name</note>
       </trans-unit>
     </body>
@@ -22,6 +23,7 @@
     <body>
       <trans-unit id="autofill.enabling">
         <source>Updating AutoFill...</source>
+        <target>AutoFill wird aktualisiert ...</target>
         <note>Text displayed while autofill credentials are being populated, caps-case AutoFill is intentional to match Apple's marketing word</note>
       </trans-unit>
       <trans-unit id="autofill.finished_enabling">
@@ -77,6 +79,7 @@
       </trans-unit>
       <trans-unit id="hwO-wS-oS4.text">
         <source>Take your passwords everywhere</source>
+        <target>Nehmen Sie Ihre Passwörter überall mit hin</target>
         <note>Class = "UILabel"; text = "Take your passwords everywhere"; ObjectID = "hwO-wS-oS4";</note>
       </trans-unit>
     </body>
@@ -545,6 +548,7 @@
     <body>
       <trans-unit id="KnK-nY-NyH.normalTitle">
         <source>Got it</source>
+        <target>Verstanden</target>
         <note>Class = "UIButton"; normalTitle = "Got it"; ObjectID = "KnK-nY-NyH";</note>
       </trans-unit>
       <trans-unit id="YaL-kM-bTV.text">
@@ -659,3 +663,4 @@
     </body>
   </file>
 </xliff>
+
