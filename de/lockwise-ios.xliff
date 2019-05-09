@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="CredentialProvider/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
+  <file original="CredentialProvider/en.lproj/InfoPlist.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -10,33 +10,32 @@
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
+        <source>CredentialProvider</source>
+        <target>CredentialProvider</target>
         <note>Bundle name</note>
       </trans-unit>
     </body>
   </file>
-  <file original="CredentialProvider/en.lproj/Localizable.strings" datatype="plaintext" source-language="en">
+  <file original="CredentialProvider/en.lproj/Localizable.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="autofill.enabling">
-        <source>Updating AutoFill...</source>
-        <target>AutoFill wird aktualisiert ...</target>
-        <note>Text displayed while autofill credentials are being populated, caps-case AutoFill is intentional to match Apple's marketing word</note>
+        <source>Updating AutoFill…</source>
+        <note>Text displayed while AutoFill credentials are being populated. AutoFill should be localized to match the proper name for Apple’s system feature</note>
       </trans-unit>
       <trans-unit id="autofill.finished_enabling">
-        <source>Finished updating autofill</source>
-        <note>Accesibility notification when autofill is done being enabled</note>
+        <source>Finished updating AutoFill</source>
+        <note>Accesibility notification when AutoFill is done being enabled</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequired">
         <source>Sign in Required</source>
-        <note>Title for alert dialog explaining that a user must be signed in to use autofill</note>
+        <note>Title for alert dialog explaining that a user must be signed in to use AutoFill.</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequiredBody">
         <source>You must be signed in to %1$@ before AutoFill will allow you to add passwords from %2$@. Once you have signed in, your entries will start appearing in AutoFill.</source>
-        <note>Body for alert dialog explaining that a user must be signed in to use autofill</note>
+        <note>Body for alert dialog explaining that a user must be signed in to use AutoFill. AutoFill should be localized to match the proper name for Apple's system feature. %1$@ and %2$@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="cancel">
         <source>Cancel</source>
@@ -45,6 +44,10 @@
       <trans-unit id="firefoxLockbox">
         <source>Firefox Lockbox</source>
         <note>Product Name</note>
+      </trans-unit>
+      <trans-unit id="list.empty">
+        <source>%@ lets you access passwords you’ve already saved to Firefox. To view your entries here, you’ll need to sign in and sync with Firefox for desktop.</source>
+        <note>Label shown when there are no logins to list. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="ok">
         <source>OK</source>
@@ -60,17 +63,17 @@
       </trans-unit>
       <trans-unit id="unlock_placeholder">
         <source>This will unlock the app.</source>
-        <note>Placeholder text when the user's email is unavailable while unlocking Lockbox, shown in Touch ID and passcode prompts</note>
+        <note>Placeholder text when the user’s email is unavailable while unlocking Lockbox, shown in Touch ID and passcode prompts</note>
       </trans-unit>
       <trans-unit id="username_placeholder">
         <source>(no username)</source>
-        <note>Placeholder text when there is no username</note>
+        <note>Placeholder text when there is no username. String should include appropriate open/close parenthetical or similar symbols to indicate this is a placeholder, not a real username.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="CredentialProvider/Storyboard/Base.lproj/CredentialWelcome.storyboard" datatype="plaintext" source-language="en">
+  <file original="CredentialProvider/Storyboard/Base.lproj/CredentialWelcome.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="ehm-2v-Rbb.accessibilityLabel">
@@ -84,9 +87,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Common/Resources/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Common/Resources/en.lproj/InfoPlist.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -94,7 +97,8 @@
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
+        <source>Firefox Lockbox</source>
+        <target>Firefox Lockbox</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
@@ -103,9 +107,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Common/Resources/Strings/en.lproj/Localizable.strings" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Common/Resources/Strings/en.lproj/Localizable.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="a_to_z">
@@ -125,20 +129,20 @@
         <note>Message in dialog box when users need to reauthenticate explaining application update</note>
       </trans-unit>
       <trans-unit id="autofill.enabling">
-        <source>Updating AutoFill...</source>
-        <note>Text displayed while autofill credentials are being populated, caps-case AutoFill is intentional to match Apple's marketing word</note>
+        <source>Updating AutoFill…</source>
+        <note>Text displayed while AutoFill credentials are being populated. AutoFill should be localized to match the proper name for Apple’s system feature</note>
       </trans-unit>
       <trans-unit id="autofill.finished_enabling">
-        <source>Finished updating autofill</source>
-        <note>Accesibility notification when autofill is done being enabled</note>
+        <source>Finished updating AutoFill</source>
+        <note>Accesibility notification when AutoFill is done being enabled</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequired">
         <source>Sign in Required</source>
-        <note>Title for alert dialog explaining that a user must be signed in to use autofill</note>
+        <note>Title for alert dialog explaining that a user must be signed in to use AutoFill.</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequiredBody">
         <source>You must be signed in to %1$@ before AutoFill will allow you to add passwords from %2$@. Once you have signed in, your entries will start appearing in AutoFill.</source>
-        <note>Body for alert dialog explaining that a user must be signed in to use autofill</note>
+        <note>Body for alert dialog explaining that a user must be signed in to use AutoFill. AutoFill should be localized to match the proper name for Apple's system feature. %1$@ and %2$@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="back">
         <source>Back</source>
@@ -158,11 +162,11 @@
       </trans-unit>
       <trans-unit id="confirm_dialog_title">
         <source>Disconnect %@?</source>
-        <note>Confirm dialog title</note>
+        <note>Confirm dialog title. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="continue">
         <source>Continue</source>
-        <note>Button title when agreeing to proceed to access Lockbox.</note>
+        <note>Button title when agreeing to proceed to access the application.</note>
       </trans-unit>
       <trans-unit id="done">
         <source>Done</source>
@@ -174,7 +178,7 @@
       </trans-unit>
       <trans-unit id="fieldNameCopied">
         <source>%@ copied</source>
-        <note>Alert text when a field has been copied, with an interpolated field name value</note>
+        <note>Alert text when a field has been copied. %@ will be replaced with the field name that was copied</note>
       </trans-unit>
       <trans-unit id="firefoxLockbox">
         <source>Firefox Lockbox</source>
@@ -182,14 +186,18 @@
       </trans-unit>
       <trans-unit id="install_browser_prompt">
         <source>%@ disabled, install this browser to make it available</source>
-        <note>Accessibility instructions for disabled web browser options</note>
+        <note>Accessibility instructions for disabled web browser options. %@ will be replaced with the browser name</note>
+      </trans-unit>
+      <trans-unit id="list.empty">
+        <source>%@ lets you access passwords you’ve already saved to Firefox. To view your entries here, you’ll need to sign in and sync with Firefox for desktop.</source>
+        <note>Label shown when there are no logins to list. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="no_username">
         <source>(no username)</source>
         <note>placeholder text when there is no username</note>
       </trans-unit>
       <trans-unit id="not_using_passcode">
-        <source>You're not using a passcode.</source>
+        <source>You’re not using a passcode.</source>
         <note>Title for dialog box with passcode setting information</note>
       </trans-unit>
       <trans-unit id="notes">
@@ -202,11 +210,15 @@
       </trans-unit>
       <trans-unit id="onboarding.encryption">
         <source>256-bit encryption</source>
-        <note>Name of link to algorithm used by Lockbox for encryption</note>
+        <note>Name of link to algorithm used by application for encryption</note>
+      </trans-unit>
+      <trans-unit id="onboarding.title">
+        <source>Welcome to %@</source>
+        <note>Title on onboarding screen. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="passcode_detail_information">
         <source>In order to lock %@, a passcode must be set up on your device. Without a passcode, anyone who has your iPhone can access the information saved here.</source>
-        <note>Message for dialog box with passcode reminder</note>
+        <note>Message for dialog box with passcode reminder. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="passcode_info">
         <source>You should use a passcode to lock your iPhone. Without a passcode, anyone who has your iPhone can access the information saved here.</source>
@@ -218,7 +230,7 @@
       </trans-unit>
       <trans-unit id="password_accessibility_instructions">
         <source>Password: double tap to copy %@</source>
-        <note>Accessibility label and instructions for password section of entry details</note>
+        <note>Accessibility label and instructions for password section of entry details. %@ will be replaced with the password value</note>
       </trans-unit>
       <trans-unit id="reauth_required">
         <source>Reauthentication Required</source>
@@ -250,7 +262,7 @@
       </trans-unit>
       <trans-unit id="settings.autoFillSettings">
         <source>AutoFill Passwords Settings</source>
-        <note>Label to link to iOS AutoFill Settings</note>
+        <note>Label to link to iOS AutoFill Settings. AutoFill should be localized to match the proper name for Apple’s system feature</note>
       </trans-unit>
       <trans-unit id="settings.autoLock">
         <source>Auto Lock</source>
@@ -266,7 +278,7 @@
       </trans-unit>
       <trans-unit id="settings.autoLock.header">
         <source>Sign out of %@ after</source>
-        <note>Header displayed above auto lock settings</note>
+        <note>Header displayed above auto lock settings. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="settings.autoLock.never">
         <source>Never</source>
@@ -344,13 +356,21 @@
         <source>Settings</source>
         <note>Title on settings screen</note>
       </trans-unit>
+      <trans-unit id="settings.unlinkAccount">
+        <source>Disconnect %@</source>
+        <note>Text on button to unlink account. %@ will be replaced with the application name</note>
+      </trans-unit>
+      <trans-unit id="settings.unlinkDisclaimer">
+        <source>This removes synced entries from %@, but will not delete your entries from Firefox.</source>
+        <note>Label on account setting explaining unlink. %@ will be replaced with the application name</note>
+      </trans-unit>
       <trans-unit id="settings.usageData">
         <source>Send Usage Data</source>
         <note>Setting to send usage data</note>
       </trans-unit>
       <trans-unit id="settings.usageData.subtitle">
         <source>Mozilla strives to only collect what we need to provide and improve %@ for everyone. </source>
-        <note>Setting for send usage data subtitle</note>
+        <note>Setting for send usage data subtitle. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="settings_button">
         <source>Settings</source>
@@ -370,7 +390,7 @@
       </trans-unit>
       <trans-unit id="sorting_options">
         <source>Select options for sorting your list of entries (currently %@)</source>
-        <note>Accessibility identifier for the sorting options button</note>
+        <note>Accessibility identifier for the sorting options button. %@ will be replaced with the currently-set sort option</note>
       </trans-unit>
       <trans-unit id="syncing_entries">
         <source>Syncing your entries</source>
@@ -382,7 +402,7 @@
       </trans-unit>
       <trans-unit id="unlock_placeholder">
         <source>This will unlock the app.</source>
-        <note>Placeholder text when the user's email is unavailable while unlocking Lockbox, shown in Touch ID and passcode prompts</note>
+        <note>Placeholder text when the user’s email is unavailable while unlocking Lockbox, shown in Touch ID and passcode prompts</note>
       </trans-unit>
       <trans-unit id="unlock_with_faceid">
         <source>Unlock with Face ID</source>
@@ -406,11 +426,11 @@
       </trans-unit>
       <trans-unit id="username_accessibility_instructions">
         <source>Username: double tap to copy %@</source>
-        <note>Accessibility label and instructions for username section of entry details</note>
+        <note>Accessibility label and instructions for username section of entry details. %@ will be replaced with the username value</note>
       </trans-unit>
       <trans-unit id="username_placeholder">
         <source>(no username)</source>
-        <note>Placeholder text when there is no username</note>
+        <note>Placeholder text when there is no username. String should include appropriate open/close parenthetical or similar symbols to indicate this is a placeholder, not a real username.</note>
       </trans-unit>
       <trans-unit id="web_address">
         <source>Web Address</source>
@@ -418,7 +438,15 @@
       </trans-unit>
       <trans-unit id="website_accessibility_instructions">
         <source>Web address: double tap to open in browser %@</source>
-        <note>Accessibility label and instructions for web address section of entry details</note>
+        <note>Accessibility label and instructions for web address section of entry details. %@ will be replaced with the browser name</note>
+      </trans-unit>
+      <trans-unit id="welcome.accessProduct">
+        <source>To use %@, you’ll need a Firefox Account with saved logins.</source>
+        <note>Access message displayed to user on welcome screen. %@ will be replaced with the application name</note>
+      </trans-unit>
+      <trans-unit id="welcome.unlockButton">
+        <source>Unlock %@</source>
+        <note>Text on button to unlock app. %@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="your_lockbox">
         <source>Firefox Lockbox</source>
@@ -426,32 +454,24 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Storyboard/Base.lproj/AccountSetting.storyboard" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Storyboard/Base.lproj/AccountSetting.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="6A6-i9-hvw.text">
         <source>To make changes to your account, log in to your Firefox Account from any browser.</source>
         <note>Class = "UILabel"; text = "To make changes to your account, log in to your Firefox Account from any browser."; ObjectID = "6A6-i9-hvw";</note>
       </trans-unit>
-      <trans-unit id="dKb-ji-8VE.text">
-        <source>This removes synced entries from Firefox Lockbox, but will not delete your entries from Firefox.</source>
-        <note>Class = "UILabel"; text = "This removes synced entries from Firefox Lockbox, but will not delete your entries from Firefox."; ObjectID = "dKb-ji-8VE";</note>
-      </trans-unit>
       <trans-unit id="f32-KR-4Nm.text">
         <source>Firefox Account</source>
         <note>Class = "UILabel"; text = "Firefox Account"; ObjectID = "f32-KR-4Nm";</note>
       </trans-unit>
-      <trans-unit id="htf-cl-VXU.normalTitle">
-        <source>Disconnect Firefox Lockbox</source>
-        <note>Class = "UIButton"; normalTitle = "Disconnect Firefox Lockbox"; ObjectID = "htf-cl-VXU";</note>
-      </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Storyboard/Base.lproj/AutofillOnboarding.storyboard" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Storyboard/Base.lproj/AutofillOnboarding.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="GdN-75-tz4.normalTitle">
@@ -472,9 +492,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Storyboard/Base.lproj/ItemDetail.storyboard" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Storyboard/Base.lproj/ItemDetail.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="HfY-Wo-gMH.accessibilityLabel">
@@ -503,15 +523,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Storyboard/Base.lproj/OnboardingConfirmation.storyboard" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Storyboard/Base.lproj/OnboardingConfirmation.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
-      <trans-unit id="1X7-W0-IdI.text">
-        <source>Welcome to Firefox Lockbox</source>
-        <note>Class = "UILabel"; text = "Welcome to Firefox Lockbox"; ObjectID = "1X7-W0-IdI";</note>
-      </trans-unit>
       <trans-unit id="GdN-75-tz4.normalTitle">
         <source>Finish</source>
         <note>Class = "UIButton"; normalTitle = "Finish"; ObjectID = "GdN-75-tz4";</note>
@@ -530,9 +546,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Storyboard/Base.lproj/SettingList.storyboard" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Storyboard/Base.lproj/SettingList.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="KPq-Rv-WTJ.normalTitle">
@@ -541,9 +557,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Storyboard/Base.lproj/SetupAutofill.storyboard" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Storyboard/Base.lproj/SetupAutofill.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="KnK-nY-NyH.normalTitle">
@@ -577,15 +593,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="lockbox-ios/Storyboard/Base.lproj/Welcome.storyboard" datatype="plaintext" source-language="en">
+  <file original="lockbox-ios/Storyboard/Base.lproj/Welcome.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
-      <trans-unit id="8rH-vt-4bG.normalTitle">
-        <source>Unlock Firefox Lockbox</source>
-        <note>Class = "UIButton"; normalTitle = "Unlock Firefox Lockbox"; ObjectID = "8rH-vt-4bG";</note>
-      </trans-unit>
       <trans-unit id="JTP-OD-6TF.normalTitle">
         <source>Learn more</source>
         <note>Class = "UIButton"; normalTitle = "Learn more"; ObjectID = "JTP-OD-6TF";</note>
@@ -602,15 +614,11 @@
         <source>Take your passwords everywhere</source>
         <note>Class = "UILabel"; text = "Take your passwords everywhere"; ObjectID = "hwO-wS-oS4";</note>
       </trans-unit>
-      <trans-unit id="xyY-bk-Xw8.text">
-        <source>To use Firefox Lockbox, you’ll need a Firefox Account with saved logins.</source>
-        <note>Class = "UILabel"; text = "To use Firefox Lockbox, you’ll need a Firefox Account with saved logins."; ObjectID = "xyY-bk-Xw8";</note>
-      </trans-unit>
     </body>
   </file>
-  <file original="Shared/Storyboard/Base.lproj/ItemList.storyboard" datatype="plaintext" source-language="en">
+  <file original="Shared/Storyboard/Base.lproj/ItemList.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="3A5-nI-aV6.text">
@@ -622,16 +630,12 @@
         <note>Class = "UIButton"; normalTitle = "Learn more"; ObjectID = "5gN-a0-N6V";</note>
       </trans-unit>
       <trans-unit id="JpV-eG-grp.text">
-        <source>To see more entries here, you'll need to save them to Firefox for desktop.</source>
-        <note>Class = "UILabel"; text = "To see more entries here, you'll need to save them to Firefox for desktop."; ObjectID = "JpV-eG-grp";</note>
+        <source>To see more entries here, you’ll need to save them to Firefox for desktop.</source>
+        <note>Class = "UILabel"; text = "To see more entries here, you’ll need to save them to Firefox for desktop."; ObjectID = "JpV-eG-grp";</note>
       </trans-unit>
       <trans-unit id="RpZ-Z7-u0I.text">
         <source>Select a password to fill</source>
         <note>Class = "UILabel"; text = "Select a password to fill"; ObjectID = "RpZ-Z7-u0I";</note>
-      </trans-unit>
-      <trans-unit id="Smh-ku-Ub5.text">
-        <source>Firefox Lockbox lets you access passwords you've already saved to Firefox. To view your entries here, you'll need to sign in and sync with Firefox for desktop.</source>
-        <note>Class = "UILabel"; text = "Firefox Lockbox lets you access passwords you've already saved to Firefox. To view your entries here, you'll need to sign in and sync with Firefox for desktop."; ObjectID = "Smh-ku-Ub5";</note>
       </trans-unit>
       <trans-unit id="aQB-Vr-ObR.normalTitle">
         <source>Learn more</source>
@@ -651,14 +655,14 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Storyboard/Base.lproj/SpinnerAlert.xib" datatype="plaintext" source-language="en">
+  <file original="Shared/Storyboard/Base.lproj/SpinnerAlert.xib" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
     </header>
     <body>
       <trans-unit id="1Mj-QY-mDP.text">
-        <source>Syncing your entries...</source>
-        <note>Class = "UILabel"; text = "Syncing your entries..."; ObjectID = "1Mj-QY-mDP";</note>
+        <source>Syncing your entries…</source>
+        <note>Class = "UILabel"; text = "Syncing your entries…"; ObjectID = "1Mj-QY-mDP";</note>
       </trans-unit>
     </body>
   </file>
