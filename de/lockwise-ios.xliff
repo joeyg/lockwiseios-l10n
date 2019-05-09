@@ -31,10 +31,12 @@
       </trans-unit>
       <trans-unit id="autofill.signInRequired">
         <source>Sign in Required</source>
+        <target>Anmeldung im CredentialManager erforderlich</target>
         <note>Title for alert dialog explaining that a user must be signed in to use AutoFill.</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequiredBody">
         <source>You must be signed in to %1$@ before AutoFill will allow you to add passwords from %2$@. Once you have signed in, your entries will start appearing in AutoFill.</source>
+        <target>Sie müssen beim CredentialProvider von %1$@ angemeldet sein, damit Sie mit AutoFill Kennwörter von %2$@ hinzufügen können. Sobald Sie sich angemeldet haben, werden Ihre Einträge in AutoFill angezeigt.</target>
         <note>Body for alert dialog explaining that a user must be signed in to use AutoFill. AutoFill should be localized to match the proper name for Apple's system feature. %1$@ and %2$@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="cancel">
@@ -138,10 +140,12 @@
       </trans-unit>
       <trans-unit id="autofill.signInRequired">
         <source>Sign in Required</source>
+        <target>Anmeldung im Common erforderlich</target>
         <note>Title for alert dialog explaining that a user must be signed in to use AutoFill.</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequiredBody">
         <source>You must be signed in to %1$@ before AutoFill will allow you to add passwords from %2$@. Once you have signed in, your entries will start appearing in AutoFill.</source>
+        <target>Sie müssen beim Common von %1$@ angemeldet sein, damit Sie mit AutoFill Kennwörter von %2$@ hinzufügen können. Sobald Sie sich angemeldet haben, werden Ihre Einträge in AutoFill angezeigt.</target>
         <note>Body for alert dialog explaining that a user must be signed in to use AutoFill. AutoFill should be localized to match the proper name for Apple's system feature. %1$@ and %2$@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="back">
