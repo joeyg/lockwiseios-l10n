@@ -7,6 +7,7 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>CredentialProvider</source>
+        <target>CredentialProvider</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
@@ -23,27 +24,32 @@
     <body>
       <trans-unit id="autofill.enabling">
         <source>Updating AutoFill…</source>
+        <target>AutoFill aktualisieren…</target>
         <note>Text displayed while AutoFill credentials are being populated. AutoFill should be localized to match the proper name for Apple’s system feature</note>
       </trans-unit>
       <trans-unit id="autofill.finished_enabling">
         <source>Finished updating AutoFill</source>
+        <target>Das Aktualisieren von AutoFill ist abgeschlossen</target>
         <note>Accessibility notification when AutoFill is done being enabled</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequired">
         <source>Sign in Required</source>
-        <target>Anmeldung im CredentialManager erforderlich</target>
+        <target>Anmeldung erforderlich</target>
         <note>Title for alert dialog explaining that a user must be signed in to use AutoFill.</note>
       </trans-unit>
       <trans-unit id="autofill.signInRequiredBody">
         <source>You must be signed in to %@ before AutoFill will allow access to passwords within it.</source>
+        <target>Sie müssen bei %@ angemeldet sein, bevor AutoFill Zugriff auf die darin enthaltenen Kennwörter zulässt.</target>
         <note>Body for alert dialog explaining that a user must be signed in to use AutoFill. AutoFill should be localized to match the proper name for Apple's system feature. %1$@ and %2$@ will be replaced with the application name</note>
       </trans-unit>
       <trans-unit id="cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>Cancel button title</note>
       </trans-unit>
       <trans-unit id="firefoxLockbox">
         <source>Firefox Lockwise</source>
+        <target>Firefox Lockwise</target>
         <note>Product Name</note>
       </trans-unit>
       <trans-unit id="list.empty">
@@ -156,6 +162,7 @@
       </trans-unit>
       <trans-unit id="cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>Cancel button title</note>
       </trans-unit>
       <trans-unit id="close">
